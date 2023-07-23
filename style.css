@@ -1,0 +1,307 @@
+*
+{
+    margin-top: 10px;
+    padding: 0;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+} 
+
+.nav li button
+{
+    width: 110px;
+    border: none;
+    background-color: rgb(89, 160, 89);
+    color: aliceblue;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+#link1
+{
+    color:rgb(70, 162, 70); 
+    text-decoration: underline;
+}
+#link2
+{
+    color:rgb(6, 6, 6)
+}
+
+.logo img
+{
+    width: 270px;
+}
+.logo h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 550;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.form-control
+{
+    border-radius: 50px;
+    width: 400px;
+    margin-top: 40px;
+    height: 65px;
+  border-color: rgb(65, 63, 63);  
+}
+.content
+{
+    display: flex;
+}
+.col
+{
+    width: 220px;
+}
+.card
+{
+    border-radius: 20px;
+    height: 240px;
+}
+#card1
+{
+ background-color:rgb(208, 106, 208);
+}
+#card2
+{
+ background-color:rgb(75, 141, 222);
+}
+#card3
+{
+ background-color:rgb(244, 162, 74);
+}
+#card4
+{
+ background-color:rgb(252, 125, 61);
+}
+#card5
+{
+ background-color:rgb(242, 107, 92);
+}
+#card6
+{
+ background-color:rgb(94, 241, 123);
+}
+.row
+{
+    margin-left: 60px;
+}
+#svg
+{
+    background-color: white;
+    margin-left: 40px;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 50%;
+}
+#svg2
+{
+    background-color: white;
+    margin-left: 40px;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.card-title
+{
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.main
+{
+    /* background-color: rgb(230, 230, 230); */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 20px;
+}
+.second 
+{
+     display:flex;
+    border-radius: 30px;
+    border-color: red solid 1px;
+    background-color: white;
+    width: 450px;
+}
+.second h6
+{
+margin-left: 65px ;
+padding: 15px;
+
+}
+.second h6:hover{
+    background-color: rgb(74, 218, 148);
+    border-radius: 20px;
+    color: white;
+}
+.caption
+{
+    display:grid;
+grid-template-columns: repeat(3,auto);
+row-gap: 20px;
+column-gap: 5px;
+
+    padding: 5px;
+    /* justify-content: space-between; */
+    /* background-color:  rgb(230, 230, 230); */
+}
+.time
+{
+    display: flex;
+    background-color:white;
+    /* width: 700px; */
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 15px;
+
+}
+.time h6{
+    margin-left: 10px;
+    background-color: rgb(74, 218, 148);
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+.new
+{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 100px;
+}
+.new h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.form-select
+{
+    width: 400px;
+    height: 80px;
+}
+.local
+{
+   width: 400px;
+   height: 80px;
+    border: 1px solid rgb(195, 192, 192);
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: rgb(119, 118, 118) 1px 1px 5px;
+    display: flex;
+
+}
+.local h3{
+    margin: 20px 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#abc
+{
+    background-color: rgb(206, 246, 224);
+    color: rgb(69, 195, 111);
+    border: 1px solid rgb(53, 160, 103);
+    border-radius: 50%;
+    margin-left: 15px;
+    padding: 20px;
+}
+.button 
+{
+    background-color: rgb(31, 172, 114);
+    width: 200px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 80px;
+}
+.para{
+    display: flex;
+}
+.data
+{
+   display: grid;
+   grid-template-columns: repeat(4,auto);
+}
+.data .card{
+    height: 150px;
+}
+.date{
+border: 1px solid rgb(19, 167, 103);
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 600;
+border-radius: 20px;
+padding: 1px;
+text-align:center;
+width: 150px;
+color: rgb(52, 171, 140);
+
+}
+.data .card:hover
+{
+background-color: rgb(68, 226, 152);
+}
+.date:hover
+{
+    color: white;
+    border: 1px solid white;
+}
+.tools
+{
+    margin-top: 200px;
+}
+
+#searchbox
+{
+    background-color: rgb(54, 53, 53);
+  border: 1px solid white;
+    color: white;
+}
+.navbar a
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+tr{
+    height: 130px;
+text-align: center;
+}
+.table svg
+{
+  border: 1px solid rgb(11, 173, 97);
+  border-radius: 50%;
+  color: rgb(9, 208, 112);
+  padding: 5px;
+  background-color: rgb(57, 80, 64);
+  
+}
+
+@media(max-width:600px){
+.button2 .button 
+{
+    margin-left: 20px;
+}
+}
+
+
+.footer
+{
+    background-color: rgb(29, 28, 28);
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 10px;
+}
+.footer p
+{
+    font-size: 15px;
+    color: rgb(191, 189, 189);
+}
+
